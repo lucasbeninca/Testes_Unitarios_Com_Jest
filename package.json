@@ -3,7 +3,9 @@
     "jest": "28.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --watch --coverage"
   },
   "type": "module"
 }
